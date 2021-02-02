@@ -1,0 +1,9 @@
+name: mocki
+  port: 3000
+  endpoints:
+    - path: /products/1/10
+      method: get
+      responses:
+        - statusCode: 200
+          body:
+            message: Hello from Mocki!

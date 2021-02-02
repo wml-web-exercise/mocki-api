@@ -1,4 +1,4 @@
-name: mocki
+name: mocki-api
   port: 3000
   endpoints:
     - path: /products/1/10
